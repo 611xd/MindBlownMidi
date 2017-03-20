@@ -1,4 +1,4 @@
-# MindBlownMidi
+# Mind Blown Midi Converter
 
 It's a converter where you could convert Midi files into numbers and patterns.
 Keeping you feeling refreshed and interested about the structure of Midi files as well as the mechanism behind. Could be fascinating and it's different each Midi files :)
