@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block bodycontent %}
+
+
+    <p style = "font-size:100px"> Crazy huh! </p>
+    <p>{{greet}}</p>
+    <form method="GET" action="http://localhost:5000/">
+    <button type="submit">Wanna load another file?</button>
+    </form>
+
+{% endblock %}

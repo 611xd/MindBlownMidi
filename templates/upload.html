@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block bodycontent %}
+
+
+<p style="font-size:70px"> Feeling bored with your MIDI file? Sound monochrome right? </p>
+
+<p style="font-size:40px">  This is where you gonna be mind blown by the numbers used to construct the piece! </p>
+
+<p style="font-size:40px">  A New Perspective towards music!</p>
+
+<p style="font-size:30px"> Each piece would have different result! </p>
+
+<p> Upload your midi file </p>
+  <form action = "http://localhost:5000/" method = "POST"
+     enctype = "multipart/form-data">
+     <input type = "file" name = "file" />
+     <input type = "submit"/>
+  </form>
+
+
+{% endblock %}
